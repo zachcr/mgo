@@ -2,11 +2,11 @@ package txn_test
 
 import (
 	"flag"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
-	"gopkg.in/mgo.v2/dbtest"
-	"gopkg.in/mgo.v2/txn"
+	"github.com/zachcr/mgo/bson"
+	"github.com/zachcr/mgo/dbtest"
+	"github.com/zachcr/mgo/txn"
 	. "gopkg.in/check.v1"
+	"gopkg.in/mgo.v2"
 	"math/rand"
 	"time"
 )
